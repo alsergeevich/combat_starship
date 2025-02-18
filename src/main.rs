@@ -1,5 +1,4 @@
-use rodio::{Decoder, OutputStream, source::Source};
-use std::io::Cursor;
+
 use std::io::stdout;
 use rand::Rng;
 use crossterm::{
@@ -9,12 +8,8 @@ use crossterm::style::Color::*;
 use crossterm::style::SetForegroundColor;
 use crossterm::style::ResetColor;
 
-static BACKGROUND_MUSIC: &[u8] = include_bytes!("..\\assets\\fone.wav");
 
-// static BACKGROUND_MUSIC: &[u8] = include_bytes!("F:\\Sanek\\learn_programming\\rust\\combat_starship\\assets\\fone.wav");
-// static SHOOT_SOUND: &[u8] = include_bytes!("F:\\Sanek\\learn_programming\\rust\\combat_starship\\assets\\shoot.wav");
-// static COLLISION_SOUND: &[u8] = include_bytes!("F:\\Sanek\\learn_programming\\rust\\combat_starship\\assets\\collision.wav");
-// static HIT_SOUND: &[u8] = include_bytes!("F:\\Sanek\\learn_programming\\rust\\combat_starship\\assets\\kill_asteroid.wav");
+
 
 
 
